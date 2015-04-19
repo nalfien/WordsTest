@@ -95,4 +95,17 @@ public class WordsTest {
 			}
 		}
 	}
+	
+	public static void clearAll() {
+		sequences.clear();
+		dupes.clear();
+	}
+
+	public static TreeMap<String, String> getSequences() {
+		return sequences;
+	}
+
+	public static List<String> getDupes() {
+		return dupes;
+	}
 }
